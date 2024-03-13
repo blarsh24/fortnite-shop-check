@@ -1,6 +1,6 @@
 import utils
 
-# source of items - not the best ATM, but working on it
+# skins refresh 5pm PST daily
 url = "https://skin-tracker.com/fortnite/currentshop"
 
 utils.skins_result(url)

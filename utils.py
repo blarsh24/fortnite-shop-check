@@ -1,6 +1,5 @@
 import requests
 from bs4 import BeautifulSoup
-import random
 import time
 from datetime import date
 
@@ -96,3 +95,5 @@ def skins_result(url):
         return f'An error occured {e}'
     finally:
         session.close()
+
+
